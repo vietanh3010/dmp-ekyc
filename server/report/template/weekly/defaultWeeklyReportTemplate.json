@@ -1,0 +1,750 @@
+{
+	"pages": [
+		{
+			"name": "splash",
+			"orientation": "landscape",
+			"background_color": "white",
+			"elements": [
+				{
+					"name": "background image",
+					"type": "image",
+					"position": [0, 0],
+					"scale": 1.0,
+					"source": "./template/weekly/images/bg.png"
+				}
+			]
+		},
+		{
+			"name": "intro",
+			"orientation": "landscape",
+			"background_color": "white",
+			"elements": [
+				{
+					"name": "organization logo",
+					"type": "image",
+					"position": [250, 250],
+					"scale": 1.0,
+					"source": "./template/weekly/images/organization_logo.png"
+				},
+				{
+					"name": "customer logo",
+					"type": "image",
+					"position": [1000, 0],
+					"scale": 1.0,
+					"source": "./template/weekly/images/customer_logo.png"
+				},
+				{
+					"name": "title",
+					"type": "text",
+					"content": "BÁO CÁO TRUYỀN THÔNG",
+					"text_color": "grey",
+					"background_color": "transparent",
+					"position": [850, 600],
+					"font_family": "OpenSans",
+					"font_link": "./template/font/Open_Sans/OpenSans-Regular.ttf",
+					"font_size": 60,
+					"font-weight": "",
+					"align": "center",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "subtitle",
+					"type": "text",
+					"content": "Từ 01/12/2018 - 31/12/2018",
+					"text_color": "darkgrey",
+					"background_color": "transparent",
+					"position": [850, 675],
+					"font_family": "OpenSans",
+					"font_size": 32,
+					"font-weight": "",
+					"align": "center",
+					"underline": false,
+					"strike": false
+				}
+			]
+		},
+		{
+			"name": "Phương pháp tổng hợp và phân tích thông tin",
+			"orientation": "landscape",
+			"background_color": "#3C5C8A",
+			"elements": [
+				{
+					"name": "logo",
+					"type": "image",
+					"position": [800, 400],
+					"scale": 2.0,
+					"source": "./template/weekly/images/method_logo.png"
+				},
+				{
+					"name": "title",
+					"type": "text",
+					"content": "PHƯƠNG PHÁP TỔNG HỢP VÀ PHÂN TÍCH THÔNG TIN",
+					"text_color": "white",
+					"background_color": "transparent",
+					"position": [175, 675],
+					"font_family": "OpenSans",
+					"font_size": 32,
+					"font-weight": "",
+					"align": "center",
+					"underline": false,
+					"strike": false
+				}
+			]
+		},
+		{
+			"name": "Phương pháp tổng hợp và phân tích thông tin 2",
+			"orientation": "landscape",
+			"background_color": "white",
+			"elements": [
+				{
+					"name": "",
+					"type": "rect",
+					"position": [0, 100],
+					"size": [100, 10],
+					"scale": 1.0,
+					"color": "#44546A"
+				},
+				{
+					"name": "title",
+					"type": "text",
+					"content": "PHƯƠNG PHÁP TỔNG HỢP VÀ PHÂN TÍCH THÔNG TIN",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [110, 75],
+					"font_family": "OpenSans",
+					"font_size": 54,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "scope_title",
+					"type": "text",
+					"content": "Phạm vi & thời gian thu thập thông tin",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [400, 200],
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "scope_desc",
+					"type": "text",
+					"content": "Dữ liệu thu thập & sử dụng trong báo cáo bao gồm tất cả các thảo luận công khai trên tất cả nền tảng internet & mạng xã hội chính ở Việt Nam, bao gồm các trang tin tức điện tử, diễn đàn, mạng xã hội Facebook, YouTube…., trong thời gian từ ngày 01/12/2018 đến 31/12/2018.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [400, 250],
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"width": 700,
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "method_title",
+					"type": "text",
+					"content": "Phương pháp & nội dung thu thập thông tin",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [600, 450],
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "method_desc",
+					"type": "text",
+					"content": "Thông tin được tổng hợp bằng công cụ công nghệ dựa trên việc sàng lọc từ khóa trong các thảo luận. Theo đó, các thảo luận với nội dung hàm chứa từ khóa (tức thương hiệu được chọn để báo cáo) sẽ được công cụ lấy về hệ thống và thực hiện báo cáo.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [600, 500],
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"width": 700,
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "target_title",
+					"type": "text",
+					"content": "Mục đích",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [800, 700],
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "target_desc",
+					"type": "bullet_point",
+					"content": [
+						"Đường biểu diễn thảo luận FPT Edu.",
+						"THẢO LUẬN VỀ FPT EDUCATION trên các kênh trực tuyến.",
+						"Nội dung thảo luận về FPT Edu.",
+						"Thái độ thảo luận về FPT Edu.",
+						"Các chủ đề nổi bật thu hút thảo luận về FPT Edu."
+					],
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [800, 750],
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"width": 700,
+					"align": "left",
+					"underline": false,
+					"strike": false,
+					"bulletIndent": 0,
+					"textIndent": 0
+				}
+			]
+		},
+		{
+			"name": "Phương pháp tổng hợp và phân tích thông tin 3",
+			"orientation": "landscape",
+			"background_color": "white",
+			"elements": [
+				{
+					"name": "",
+					"type": "rect",
+					"position": [0, 100],
+					"size": [100, 10],
+					"scale": 1.0,
+					"color": "#44546A"
+				},
+				{
+					"name": "section",
+					"type": "text",
+					"content": "PHƯƠNG PHÁP TỔNG HỢP VÀ PHÂN TÍCH THÔNG TIN",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [110, 75],
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "title",
+					"type": "text",
+					"content": "NỘI DUNG CHÍNH",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [110, 100],
+					"font_family": "OpenSans",
+					"font_size": 48,
+					"font_weight": "bold",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [110, 200],
+					"size": [250, 100],
+					"scale": 1.0,
+					"color": "#44546A",
+					"cornerRadius": 15
+				},
+				{
+					"name": "overview_title",
+					"type": "text",
+					"content": "TỔNG QUAN THẢO LUẬN",
+					"text_color": "white",
+					"background_color": "transparent",
+					"position": [110, 215],
+					"width": 250,
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": 800,
+					"align": "center",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "path",
+					"path": "M 125,300 L 125,400 L 150,400"
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [150, 340],
+					"size": [310, 200],
+					"scale": 1.0,
+					"cornerRadius": 15,
+					"color": "white",
+					"lineWidth": 2,
+					"lineColor": "black"
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "Lượng thảo luận của FPT Education trong tháng 12 tăng nhẹ so với tháng trước. \nĐáng chú ý, Chung kết cuộc thi Miss FPTU Hà Nội 2018 thành công trong việc kêu gọi sự tương tác từ cộng đồng mạng vào thương hiệu, tạo nên đỉnh cao nổi bật trong tháng báo cáo.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [160, 350],
+					"font_family": "OpenSans",
+					"font_size": 16,
+					"font-weight": "800",
+					"width": 300,
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [490, 200],
+					"size": [250, 100],
+					"scale": 1.0,
+					"color": "#44546A",
+					"cornerRadius": 15
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "KÊNH THẢO LUẬN",
+					"text_color": "white",
+					"background_color": "transparent",
+					"position": [490, 215],
+					"width": 250,
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"align": "center",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "path",
+					"path": "M 510,300 L 510,400 L 530,400"
+				},
+				{
+					"name": "",
+					"type": "path",
+					"path": "M 510,400 L 510,600 L 530,600"
+				},
+				{
+					"name": "",
+					"type": "path",
+					"path": "M 510,600 L 510,750 L 530,750"
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [530, 340],
+					"size": [310, 180],
+					"scale": 1.0,
+					"cornerRadius": 15,
+					"color": "white",
+					"lineWidth": 2,
+					"lineColor": "black"
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "Fanpage tiếp tục là kênh thu hút tương tác nhiều nhất với hàng loạt các hoạt động nổi bật như cổ vũ đội tuyển Việt Nam, sự kiện Miss FPTU Hà Nội 2018, tuần lễ giáo dục quốc phòng, hành trình 7 ngày trải nghiệm của đại học Greenwich,…",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [540, 350],
+					"width": 300,
+					"font_family": "OpenSans",
+					"font_size": 16,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [530, 540],
+					"size": [310, 160],
+					"scale": 1.0,
+					"cornerRadius": 15,
+					"color": "white",
+					"lineWidth": 2,
+					"lineColor": "black"
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "Trong khi đó, trên kênh FB cá nhân, confession “Tại sao con gái FPT nên phải yêu con trai TDT?”,..) là đề tài nổi bật trong tháng báo cáo bên cạnh các thắc mắc về chất lượng đào tạo, thông tin khóa học tại FPT Edu.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [540, 550],
+					"width": 300,
+					"font_family": "OpenSans",
+					"font_size": 16,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [530, 730],
+					"size": [310, 80],
+					"scale": 1.0,
+					"cornerRadius": 15,
+					"color": "white",
+					"lineWidth": 2,
+					"lineColor": "black"
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "Các thông tin về giáo dục, giải trí, sinh viên là những tiêu đề nóng hổi trên tin tức thời gian qua.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [540, 740],
+					"width": 300,
+					"font_family": "OpenSans",
+					"font_size": 16,
+					"font-weight": "800",
+					"align": "left",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [870, 200],
+					"size": [250, 100],
+					"scale": 1.0,
+					"color": "#44546A",
+					"cornerRadius": 15
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "NỘI DUNG THẢO LUẬN",
+					"text_color": "white",
+					"background_color": "transparent",
+					"position": [870, 215],
+					"width": 250,
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"align": "center",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "path",
+					"path": "M 890,300 L 890,400 L 910,400"
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [910, 340],
+					"size": [310, 200],
+					"scale": 1.0,
+					"cornerRadius": 15,
+					"color": "white",
+					"lineWidth": 2,
+					"lineColor": "black"
+				},
+				{
+					"name": "scope_desc",
+					"type": "text",
+					"content": "Hoạt động trên fanpage và sự kiện (tiêu biểu như cuộc thi Miss FPT, sự kiện ngày Giáng sinh…) là những chủ đề thảo luận chính về FPT Education. \n\nNgoài ra, đề tài về sinh viên, chất lượng đào tạo, học bổng,…. cũng thu hút lượng tương tác tốt.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [920, 350],
+					"font_family": "OpenSans",
+					"font_size": 16,
+					"font-weight": "800",
+					"width": 300,
+					"align": "left",
+					"underline": false,
+					"strike": false,
+					"bulletIndent": 0,
+					"textIndent": 0
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [1250, 200],
+					"size": [250, 100],
+					"scale": 1.0,
+					"color": "#44546A",
+					"cornerRadius": 15
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "THÁI ĐỘ THẢO LUẬN",
+					"text_color": "white",
+					"background_color": "transparent",
+					"position": [1250, 215],
+					"width": 250,
+					"font_family": "OpenSans",
+					"font_size": 24,
+					"font-weight": "800",
+					"align": "center",
+					"underline": false,
+					"strike": false
+				},
+				{
+					"name": "",
+					"type": "path",
+					"path": "M 1270,300 L 1270,400 L 1290,400"
+				},
+				{
+					"name": "",
+					"type": "path",
+					"path": "M 1270,400 L 1270,550 L 1290,550"
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [1290, 340],
+					"size": [310, 130],
+					"scale": 1.0,
+					"cornerRadius": 15,
+					"color": "white",
+					"lineWidth": 2,
+					"lineColor": "black"
+				},
+				{
+					"name": "scope_desc",
+					"type": "text",
+					"content": "Cộng đồng mạng thể hiện sự thích thú đối với các nội dung trên fanpage thông qua việc chia sẻ cùng bạn bè cũng như tương tác sôi nổi dưới các bài viết/ video bên cạnh các thông tin sự kiện.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [1300, 350],
+					"font_family": "OpenSans",
+					"font_size": 16,
+					"font-weight": "800",
+					"width": 300,
+					"align": "left",
+					"underline": false,
+					"strike": false,
+					"bulletIndent": 0,
+					"textIndent": 0
+				},
+				{
+					"name": "",
+					"type": "roundedRect",
+					"position": [1290, 490],
+					"size": [310, 150],
+					"scale": 1.0,
+					"cornerRadius": 15,
+					"color": "white",
+					"lineWidth": 2,
+					"lineColor": "black"
+				},
+				{
+					"name": "scope_desc",
+					"type": "text",
+					"content": "Tuy nhiên, FPT Edu cũng gặp phải một lượng rất nhỏ thảo luận TIÊU CỰC đến từ than phiền của người dùng về chất lượng đào tạo chưa cân xứng với học phí, tuyển sinh thiếu chọn lọc và chậm hoàn trả học phí.",
+					"text_color": "black",
+					"background_color": "transparent",
+					"position": [1300, 500],
+					"font_family": "OpenSans",
+					"font_size": 16,
+					"font-weight": "800",
+					"width": 300,
+					"align": "left",
+					"underline": false,
+					"strike": false,
+					"bulletIndent": 0,
+					"textIndent": 0
+				}
+			]
+		},
+		{
+			"name": "Evaluation and Suggestion",
+			"orientation": "landscape",
+			"background_color": "#5B9BD5",
+			"elements": [
+				{
+					"name": "",
+					"type": "image",
+					"source": "./template/weekly/images/evaluation_logo.png",
+					"position": [800, 375],
+					"size": [250, 250]
+				},
+				{
+					"name": "",
+					"type": "text",
+					"content": "ĐÁNH GIÁ VỀ FPT EDU VÀ CÁC ĐỀ XUẤT",
+					"position": [100, 650],
+					"text_color": "white",
+					"font_family": "OpenSans",
+					"font_link": "./template/font/Open_Sans/OpenSans-Regular.ttf",
+					"font_size": 36,
+					"font-weight": "",
+					"align": "center",
+					"underline": false,
+					"strike": false
+				}
+			]
+		},
+		{
+			"name": "",
+			"orientation": "landscape",
+			"background_color": "white",
+			"elements": [
+			]
+		},
+		{
+			"name": "piechart example",
+			"orientation": "landscape",
+			"background_color": "#3C5C8A",
+			"elements": [
+				{
+					"name": "piechart of something",
+					"type": "piechart",
+					"position": [0, 0],
+					"dataURL": "",
+					"data": {
+						"<5": 2704659,
+						"5-13": 4499890,
+						"14-17": 2159981,
+						"18-24": 3853788,
+						"25-44": 14106543,
+						"45-64": 8819342,
+						">65": 612463
+					}
+				}
+			]
+		},
+		{
+			"name": "line chart example",
+			"orientation": "landscape",
+			"background_color": "white",
+			"elements": [
+				{
+					"name": "linechart of something",
+					"type": "linechart",
+					"position": [0, 0],
+					"dataURL": "",
+					"data": [
+						{
+							"24-Apr-07": 93.24,
+							"25-Apr-07": 95.35,
+							"26-Apr-07": 98.84,
+							"27-Apr-07": 99.92,
+							"30-Apr-07": 99.8,
+							"1-May-07": 99.47,
+							"2-May-07": 100.39,
+							"3-May-07": 100.4,
+							"4-May-07": 100.81,
+							"7-May-07": 103.92,
+							"8-May-07": 105.06,
+							"9-May-07": 106.88,
+							"10-May-07": 107.34,
+							"11-May-07": 108.74,
+							"14-May-07": 109.36,
+							"15-May-07": 107.52,
+							"16-May-07": 107.34,
+							"17-May-07": 109.44,
+							"18-May-07": 110.02,
+							"21-May-07": 111.98,
+							"22-May-07": 113.54,
+							"23-May-07": 112.89,
+							"24-May-07": 110.69,
+							"25-May-07": 113.62,
+							"29-May-07": 114.35,
+							"30-May-07": 118.77,
+							"31-May-07": 121.19,
+							"1-Jun-07": 118.4,
+							"4-Jun-07": 121.33,
+							"5-Jun-07": 122.67,
+							"6-Jun-07": 123.64,
+							"7-Jun-07": 124.07,
+							"8-Jun-07": 124.49,
+							"11-Jun-07": 120.19,
+							"12-Jun-07": 120.38,
+							"13-Jun-07": 117.5,
+							"14-Jun-07": 118.75,
+							"15-Jun-07": 120.5,
+							"18-Jun-07": 125.09,
+							"19-Jun-07": 123.66,
+							"20-Jun-07": 121.55,
+							"21-Jun-07": 123.9,
+							"22-Jun-07": 123,
+							"25-Jun-07": 122.34,
+							"26-Jun-07": 119.65,
+							"27-Jun-07": 121.89,
+							"28-Jun-07": 120.56,
+							"29-Jun-07": 122.04,
+							"2-Jul-07": 121.26,
+							"3-Jul-07": 127.17,
+							"5-Jul-07": 132.75,
+							"6-Jul-07": 132.3,
+							"9-Jul-07": 130.33,
+							"10-Jul-07": 132.35,
+							"11-Jul-07": 132.39,
+							"12-Jul-07": 134.07,
+							"13-Jul-07": 137.73,
+							"16-Jul-07": 138.1,
+							"17-Jul-07": 138.91,
+							"18-Jul-07": 138.12,
+							"19-Jul-07": 140
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "barchart example",
+			"orientation": "landscape",
+			"background_color": "white",
+			"elements": [
+				{
+					"name": "barchart of something",
+					"type": "barchart",
+					"position": [0, 0],
+					"width": 800,
+					"height": 500,
+					"dataURL": "",
+					"axisX": "Name",
+					"axisY": "Age",
+					"data": {
+						"Bob": 33,
+						"Robin": 12,
+						"Anne": 41,
+						"Mark": 16,
+						"Joe": 59,
+						"Eve": 38,
+						"Karen": 21,
+						"Kirsty": 25,
+						"Chris": 30,
+						"Lisa": 47,
+						"Tom": 5,
+						"Stacy": 20,
+						"Charles": 13,
+						"Mary": 29
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+FROM node:11.10
+ADD . /frontend
+WORKDIR /frontend
+RUN npm install
+CMD npm run build
+
+FROM node:11.10-alpine
+WORKDIR /frontend-static
+COPY --from=0 /frontend/build ./build
+COPY --from=0 /frontend/frontend.js .
+RUN npm install express
+CMD node frontend.js

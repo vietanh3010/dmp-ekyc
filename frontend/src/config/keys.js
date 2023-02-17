@@ -1,0 +1,7 @@
+module.exports = {
+  apiUrl: process.env.REACT_APP_API_URL || "http://localhost:5000",
+  callbackUrl: process.env.REACT_APP_CALLBACK_URL || "https://adfs.fpt.com.vn/adfs/oauth2/authorize?response_type=code&scope=openid&client_id=bcnfpt&redirect_uri=http://localhost:3000/oauth/redirect",
+  idToken: process.env.REACT_APP_ID_TOKEN || "eyJraWQiOiI3MzE5MDE3NzFlNGUwYzhmNzk1Y2EwNjRhNDU0OWNhNSIsImFsZyI6IlJTMjU2In0.eyJwaG9uZV9udW1iZXIiOiIrODQ5Nzg0Nzc3MjgiLCJuYW1lIjoiQmFuZyBOZ3V5ZW4iLCJub25jZSI6IjEyMzQ1IiwiaXNzIjoiaHR0cHM6Ly9pZC1kZXYuZnB0LmFpIiwiaWF0IjoxNTc4ODg1MDc4LCJleHAiOjE1Nzg4ODU2NzgsImF1dGhfdGltZSI6MTU3ODg4NTA2NywiYXVkIjoiOTk1NjEwIiwiZW1haWwiOiJiYW5nbmJ4QGZwdC5jb20udm4iLCJzdWIiOiIyMjkifQ.bEI49dJBB1t_5g0VX3z4NziekrZJ5PuJ7XW2CsKHpkgzM4eQevwbWwH0SPuD-ZRyCungiQC-naSvjBumgpqsnH9_I8OumU-d2mc6UwmO-QBE52x82fJk4ORwzZb5PVr0LIvzXPhSm9GFKf_hZRJsF0aq_Rc87g6IBPBEMPl51SkJ1F2Qqu_TceaaMWpmbbjg-Gs1hMdvltr4DLWZYkkJV1SxKGnLTU5g9pd73d4aPxOr1PmXaDDy2Zfxvu_DQ2ZIhaNNbkExJ2QWRlvdMNaYM9joeMsMQZCMCwbNWcRdhm1FMTB-tyO7QLaGhv5Ohmw42qC2rzWe1arZTwKfV_GBgw\n"
+};
+
+  //apiUrl: process.env.REACT_APP_API_URL || "https://sangkien.fpt.com.vn",

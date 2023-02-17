@@ -1,0 +1,24 @@
+{
+	"pages": [
+		{
+			"orientation": "landscape",
+			"elements": [
+				{
+					"name": "background image",
+					"type": "image",
+					"top_left_position": [0, 0],
+					"scale": 1.0,
+					"source": "../images"
+				},
+				{
+
+				}
+			]
+		},
+		{
+			"orientation": "landscape",
+			"elements": [
+			]
+		}
+	]
+}

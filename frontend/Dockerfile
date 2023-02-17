@@ -1,0 +1,11 @@
+FROM node:11.10
+ADD . /frontend
+WORKDIR /frontend
+ARG REACT_APP_SL_BASE_URL
+ENV REACT_APP_SL_BASE_URL $REACT_APP_SL_BASE_URL
+ARG REACT_APP_CALLBACK_URL
+ENV REACT_APP_CALLBACK_URL $REACT_APP_CALLBACK_URL
+RUN npm install
+RUN npm run build
+RUN npm install express
+CMD node frontend.js

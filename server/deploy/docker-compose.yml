@@ -1,0 +1,25 @@
+version: '2'
+services:
+  backend:
+    image: gcr.io/fpt-fti/smartdoor:1.0.0
+    environment:
+      - SL_MONGO_URL=mongodb://localhost:27017/smart_door?authSource=admin
+      - FACE_SEARCH_COLLECTION=smartdoor_production
+      - FACE_SEARCH_CREATE_URL=http://10.3.9.222:6655/dmp/search_face/v2/create
+      - FACE_SEARCH_ADD_URL=http://10.3.9.222:6655/dmp/search_face/v2/add
+      - FACE_SEARCH_DELETE_URL=http://10.3.9.222:6655/dmp/search_face/v2/delete
+    ports:
+      - "3000:5000"
+    depends_on:
+      - mongo
+    command: node server.js
+    restart: always
+
+  mongo:
+    image: mongo:3.6
+    restart: always
+    ports:
+      - "27020:27017"
+    volumes:
+      - ./mongo_data:/data/db
+
